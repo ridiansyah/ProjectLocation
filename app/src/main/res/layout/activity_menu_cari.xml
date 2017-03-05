@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu_cari"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.andriginting.projectlocation.menu_cari">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="36dp"
+            android:id="@+id/cari_alamat"
+            android:hint=" Cari.."
+            android:background="@drawable/input_background"
+            android:layout_gravity="center"
+            android:gravity="left|center_vertical" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/tmbl_cari"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/icon_search"
+            android:onClick="geoLocate"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/MapFragment_cari"
+        android:layout_below="@+id/teks_cari"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.MapFragment"/>
+
+</LinearLayout>

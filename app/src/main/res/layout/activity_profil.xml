@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.andriginting.projectlocation.profil">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear1">
+        <com.eralp.circleprogressview.CircleProgressView
+            android:id="@+id/circle_progress_view"
+            android:layout_width="100dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cpv_circle_color="#ffffff"
+            app:cpv_circle_width="3dp"
+            app:cpv_background_circle_width="1dp"
+            app:cpv_background_circle_color="#5b253048"
+            app:cpv_text_prefix="%"
+            app:cpv_text_color="#27375c"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/icon_setting"
+            android:layout_gravity="right"
+            android:id="@+id/tmbl_setting"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/foto_profil"
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal"
+            app:civ_border_color="#ff000000"
+            />
+
+        <TextView
+            android:id="@+id/id_namaProfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="nama"
+            android:textSize="28sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_horizontal"
+            android:textStyle="normal|bold" />
+        <TextView
+            android:id="@+id/id_namakota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="5dp"
+            android:text="kota"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="19dp"
+        android:text="24"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:id="@+id/id_poinProfil"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:text="poin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_poinProfil"
+        android:textSize="10sp"
+        android:textColor="#ffffff"
+        android:id="@+id/id_poin"
+        android:textStyle="normal|bold"
+        android:layout_alignRight="@+id/id_poinProfil"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/id_emailProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:textStyle="normal|bold"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/id_poin" />
+
+
+    <TextView
+        android:text="45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:id="@+id/id_badgeProfil"
+        android:textStyle="normal|bold"
+        android:layout_alignBaseline="@+id/id_emailProfil"
+        android:layout_alignBottom="@+id/id_emailProfil"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="21dp" />
+
+    <TextView
+        android:text="badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="#ffffff"
+        android:id="@+id/id_badge"
+        android:textStyle="normal|bold"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/id_emailProfil"
+        android:layout_alignRight="@+id/id_badgeProfil" />
+
+</RelativeLayout>

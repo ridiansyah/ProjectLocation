@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/logo_about"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tulisan"
+            android:text="RoundMe"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/logo_about"/>
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:id="@+id/logo_s7"
+            android:src="@drawable/logo_fix2"
+            android:layout_below="@+id/tulisan"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toLeftOf="@+id/grs_vertical"
+            />
+        <View
+            android:layout_width="3dp"
+            android:layout_height="40dp"
+            android:id="@+id/grs_vertical"
+            android:background="#000000"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tulisan"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tulisan2"
+            android:text="@string/version_0_1_1_beta"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/tulisan"
+            android:layout_toRightOf="@+id/grs_vertical"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tulisan3"
+            android:text="@string/developed_by_sector_7"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/tulisan"
+            android:layout_toRightOf="@+id/grs_vertical"/>
+        <View
+            android:layout_width="300dp"
+            android:layout_height="3dp"
+            android:background="#000000"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/logo_s7"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/deskripsi"
+            android:text="RoundMe adalah sebuah aplikasi yang memungkinkan pengguna untuk mengetahui
+            tempat-tempat disekitar mereka sehingga memudahkan pengguna dalam mencari tempat yang mereka butuhkan secara detail"
+            android:textColor="#000000"
+            android:paddingLeft="20dp"
+            android:paddingRight="30dp"
+            android:paddingTop="5dp"/>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="3dp"
+            android:background="#000000"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/deskripsi"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/programmer"
+            android:text="Programmer : Andri Suranta Ginting"
+            android:textColor="#000000"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/artis"
+            android:text="Artist : Fajri Fernanda"
+            android:textColor="#000000"
+            android:layout_below="@+id/programmer"
+            android:layout_marginLeft="80dp"
+            android:layout_alignParentLeft="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/designer"
+            android:text="Designer : Moh.Wahyu Dwi Ridiansyah"
+            android:textColor="#000000"
+            android:layout_below="@+id/artis"
+            android:layout_marginLeft="80dp"
+            android:layout_alignParentLeft="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

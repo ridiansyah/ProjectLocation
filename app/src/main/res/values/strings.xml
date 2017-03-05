@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">RoundMe</string>
+    <string name="title_activity_menu1">Menu1</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="google_android_map_api_key">AIzaSyDmp_XKCnsqY_dPnGq5OEPP5FZH5HvamD8</string>
+    <string name="roundme">RoundMe</string>
+    <string name="feedback">Feedback</string>
+    <string name="profil">Profil</string>
+    <string name="Home">Home</string>
+    <string name="checkin">Checkin</string>
+    <string name="developed_by_sector_7">Developed by SECTOR-7</string>
+    <string name="version_0_1_1_beta">Version 0.1.1 Beta</string>
+    <string name="makanan">Makanan</string>
+    <string name="change_profile_photo">Change Profile Photo</string>
+    <string name="display_name">Display Name</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="kota">Kota</string>
+    <string name="nomor_telepon">Nomor Telepon</string>
+    <string name="logout">Logout</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="frequently_asked_questions">Frequently Asked Questions</string>
+
+
+    <string-array name="menu">
+        <item>Makanan</item>
+        <item>Toko</item>
+        <item>Cafe</item>
+        <item>Seru</item>
+        <item>Apotek</item>
+        <item>Rumah Ibadah</item>
+    </string-array>
+
+    <array name="gambar_menu">
+        <item>@drawable/sendok_garpu</item>
+        <item>@drawable/toko</item>
+        <item>@drawable/kopi</item>
+        <item>@drawable/seru</item>
+        <item>@drawable/apotek</item>
+        <item>@drawable/museum</item>
+    </array>
+
+    <array name="latitude">
+        <item>-7.94696221</item>
+        <item>-7.9388782</item>
+        <item>-7.95701941</item>
+    </array>
+
+    <array name="longitude">
+        <item>112.6087904</item>
+        <item>112.5895087</item>
+        <item>112.61860728</item>
+    </array>
+
+    <array name="nama_tempat">
+        <item>Sardo Swalayan</item>
+        <item>Coklat Klasik</item>
+        <item>Penyetan Sigura-gura</item>
+    </array>
+
+
+</resources>

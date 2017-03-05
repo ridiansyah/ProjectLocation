@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "806469055717",
+    "firebase_url": "https://roundme-366f1.firebaseio.com",
+    "project_id": "roundme-366f1",
+    "storage_bucket": "roundme-366f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806469055717:android:c3bfe1b447d9ebc2",
+        "android_client_info": {
+          "package_name": "com.example.andriginting.projectlocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806469055717-96m2rnp5fk2sacs6ig414jt4vjhccgt7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.andriginting.projectlocation",
+            "certificate_hash": "c6bb002cf3741f5e03258e8415a300b493d558e7"
+          }
+        },
+        {
+          "client_id": "806469055717-4173tfidg18fvgge2u6hih6fnukpv569.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP68lYEPjhVImt3cVOhoHPcqg9zGZites"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806469055717-4173tfidg18fvgge2u6hih6fnukpv569.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
